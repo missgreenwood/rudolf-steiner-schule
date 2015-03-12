@@ -1,0 +1,31 @@
+# User (uploads etc.)
+/fileadmin/
+/fileadmin/user_upload/
+/fileadmin/_temp_/
+/uploads/
+
+# Deprecation log 
+/typo3conf/deprecation*
+
+# Enable install tool 
+/typo3conf/ENABLE_INSTALL_TOOL
+
+# SQL 
+/typo3conf/*.sql
+/typo3conf/*.sql.gz
+
+# Temp 
+/typo3conf/temp_CACHED*
+/typo3conf/temp_fieldInfo.php
+/typo3conf/temp_*
+/typo3temp/
+
+# Contains db credentials, colorspaces for ImageMagick when different on local and remote host, defines caching backends to use etc. 
+/typo3conf/AdditionalConfiguration.php
+
+/typo3conf/ext/
+
+# /typo3/
+# /t3lib/
+
+.htaccess
